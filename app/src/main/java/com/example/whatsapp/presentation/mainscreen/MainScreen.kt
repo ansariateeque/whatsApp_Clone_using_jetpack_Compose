@@ -279,7 +279,6 @@ fun SearchTopBar(
                 }
             )
         )
-
         IconButton(onClick = onClose) {
             Icon(
                 painter = painterResource(id = R.drawable.cross), // Add a cross icon
@@ -291,6 +290,7 @@ fun SearchTopBar(
 
     HorizontalDivider()
 }
+//comment to check on github
 
 fun formatChatTimestamp(timestamp: Long): String {
     val now = System.currentTimeMillis()
